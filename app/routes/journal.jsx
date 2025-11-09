@@ -1,6 +1,5 @@
-// routes/journal.jsx
 import React from "react";
-import { useParams, useOutletContext, Link } from "react-router";
+import { useParams, useOutletContext, Link } from "react-router-dom";
 
 const STORAGE_KEY = "serenote_journals";
 

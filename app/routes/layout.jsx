@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header.jsx";
 import Sidebar from "../components/Sidebar.jsx";
-import { Outlet, useLoaderData, useLocation } from "react-router";
+import { Outlet, useLoaderData, useLocation } from "react-router-dom";
 import JournalSidebar from "../components/JournalSidebar.jsx";
 
 const STORAGE_KEY = "serenote_journals";

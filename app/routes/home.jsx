@@ -1,6 +1,6 @@
 import React from "react";
 import NewJournal from "../components/NewJournal";
-import { Link, useOutletContext } from "react-router";
+import { Link, useOutletContext } from "react-router-dom";
 
 function JournalCard({ journal }) {
   return (

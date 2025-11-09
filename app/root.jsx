@@ -7,13 +7,11 @@ import {
   ScrollRestoration,
   useLocation,
   Navigate,
-} from "react-router";
+} from "react-router-dom";
 
 // Styles imported here will be bundled into the app automatically
 import "./app.css";
 
-// Add links to external stylesheets, fonts, etc. here
-// https://reactrouter.com/start/framework/route-module#links
 export const links = () => [];
 
 export function Layout({ children }) {
@@ -84,5 +82,13 @@ export function ErrorBoundary({ error }) {
         </pre>
       )}
     </main>
+  );
+}
+
+export function RootWrapper() {
+  return (
+    <HashRouter>
+      <App />
+    </HashRouter>
   );
 }

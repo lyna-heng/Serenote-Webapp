@@ -86,9 +86,5 @@ export function ErrorBoundary({ error }) {
 }
 
 export function RootWrapper() {
-  return (
-    <HashRouter>
-      <App />
-    </HashRouter>
-  );
+  return <App />;
 }
